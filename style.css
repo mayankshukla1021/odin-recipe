@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
 body {
  background-color:black;
- font-family:sans-serif; 
+ font-family: 'Amatic SC', cursive; 
   color:white;
-  font-size: 21px;
+  font-size: 41px;
 }
 p {
 color:rgb(57, 57, 122);
@@ -10,9 +14,13 @@ color:rgb(57, 57, 122);
 h1{
   color: rgb(31, 161, 118);
   font-size: 50px ;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Amatic SC';
 }
-img{
-  height: 300px;
-  width: 200px;
+ img:hover{  
+  height:300px;
+  width:200px;
+  transform: scale(1.05);
+  transition: all ease ;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(136, 219, 140);
 }
