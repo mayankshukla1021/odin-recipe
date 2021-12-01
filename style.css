@@ -1,0 +1,18 @@
+body {
+ background-color:black;
+ font-family:sans-serif; 
+  color:white;
+  font-size: 21px;
+}
+p {
+color:rgb(57, 57, 122);
+}
+h1{
+  color: rgb(31, 161, 118);
+  font-size: 50px ;
+  font-family: 'Times New Roman', Times, serif;
+}
+img{
+  height: 300px;
+  width: 200px;
+}
